@@ -1,2 +1,41 @@
 day1 : python list & boolean
-boolean, list, type, append, insert, 
+boolean & their in built functions like isalpha(),isalnum(), isupper() also boolean & logic operators etc...
+list & type, append, insert, indexing, extend, operations like sum(),, avg() , pop(),count(), lst.index()
+
+day2: sets,dictionary & tuples
+set -> {}, no duplicates, inbuilt funtions -> no indexing is possible in sets, set.add(), set.intersection(), set1.difference(set2) etc
+dictionary -> set of key value pair {:,:,}, in dict we use indexing with key value for loop to iterator over dict for x in my_dict: for loop over value for x in my_dict.values():,
+loop over both key & value for x in my_dict.items(): , nested dictionary
+Tuples -> elements are not changable & replaced, tuple.count(element), tuple.index(element)
+
+Numpy -> np.array(my_ist), aray.shape, arr.reshape(row,col), arr.indexing, arr[0:2,0:2] picks 4 values in oth & 1st row  & 2 cols, np.arange(start, end, step=), np.linspace(1,10,50) to create decimal values
+np.random.rand, np.random.randn, np.random.randint,np.random.rand_sample
+
+
+interview question related to python:
+What is the difference between lists and tuples in Python?
+Explain the difference between '==' and 'is' operators in Python.
+-->is checks if the two operands are the same object in memory, whereas == checks if the values of the two operands are equal.
+What is the purpose of NumPy in Python? How is it different from Python lists?
+How would you handle missing or NaN values in a pandas DataFrame?
+Explain the concept of broadcasting in NumPy.
+What is the purpose of the lambda function in Python? Can you give an example of its usage?
+Describe the use of 'map' and 'filter' functions in Python.
+How does Python's garbage collection mechanism work?
+What is the purpose of virtual environments in Python?
+Explain the concept of inheritance in Python with an example.
+How would you handle categorical data in a machine learning pipeline?
+Explain the purpose of the pickle module in Python.
+What is the purpose of the __init__ method in Python classes?
+Explain the difference between supervised and unsupervised learning.
+What is the purpose of the random module in Python?
+Explain the bias-variance tradeoff in machine learning. How do you deal with it?
+What is the purpose of the matplotlib library in Python? Can you provide an example of how you would use it?
+How would you handle imbalanced datasets in a classification problem?
+Explain the difference between a shallow copy and a deep copy in Python.
+What is the purpose of the scikit-learn library in Python? Can you provide examples of some commonly used modules within it?
+These questions should cover a range of topics relevant to someone with 5 years of experience in a data science role using Python.
+
+
+
+
